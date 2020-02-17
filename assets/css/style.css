@@ -1,12 +1,50 @@
-body {
-  font-family: "KozGoPr6N", "Meiryo", "Hiragino Kaku Gothic Pro";
-  font-size: 14px;
-  color: #000000;
-  overflow-x: hidden;
-}
+body { font-family: "KozGoPr6N", "Meiryo", "Hiragino Kaku Gothic Pro"; font-size: 14px; color: #000000; overflow-x: hidden; }
 
-.container {
-  width: 100%;
-  max-width: 1000px;
-}
+.container { width: 100%; max-width: 1000px; }
+
+ul { list-style: none; }
+
+p, ul { -webkit-margin-before: 0; margin-block-start: 0; -webkit-margin-after: 0; margin-block-end: 0; }
+
+a { text-decoration: none; color: #000; }
+
+.orange { color: #e37042; }
+
+header .header { padding: 40px 0; }
+
+.main-cover { background-image: url(../images/main.jpg); background-repeat: no-repeat; background-position: top center; padding-bottom: 70px; font-weight: bold; }
+
+.main-cover .title { color: #fff; font-size: 50px; -webkit-margin-before: 0; margin-block-start: 0; -webkit-margin-after: 0; margin-block-end: 0; margin: 20px 0; }
+
+.main-cover__content { font-size: 32px; display: inline-block; background-color: #ffffffc9; border-radius: 8px; padding: 20px 30px; color: #5b5c5e; }
+
+.main-cover__content p { font-size: 38px; margin-bottom: 20px; }
+
+.main-cover__content ul li { padding: 10px 0; position: relative; padding-left: 10px; }
+
+.main-cover__content ul li::before { position: absolute; content: ""; background-image: url(../images/check.png); background-repeat: no-repeat; background-size: cover; height: 32px; width: 32px; left: -35px; }
+
+h2.title { text-align: center; }
+
+.contact-banner { background-image: url(../images/background-contact.jpg); background-repeat: no-repeat; background-position: top center; padding-top: 10px; }
+
+.contact-banner__content .contact_item { display: inline-block; border-radius: 10px; margin-bottom: 10px; color: #fff; text-align: center; padding: 7px 20px; border: 1px solid #fff; }
+
+.contact-banner__content .contact_item .title { background-color: #fff; width: 100%; padding: 4px 0px; border-radius: 10px; font-size: 20px; }
+
+.contact-banner__content .contact_item .cnt { font-size: 42px; padding: 8px 0; font-weight: bold; position: relative; }
+
+.contact-banner__content .contact_item .cnt a { color: #fff; }
+
+.contact-banner__content .contact_item .cnt.phone_number::before { position: absolute; content: ""; background-image: url(../images/phone.png); background-repeat: no-repeat; background-size: cover; height: 42px; width: 33px; left: -35px; }
+
+.contact-banner__content .contact_item .service-time { font-size: 20px; }
+
+.contact-banner__content .contact_item.phone { background: #49cbd9; background: -webkit-gradient(linear, left bottom, left top, from(#49cbd9), to(#83ebf6)); background: linear-gradient(0deg, #49cbd9 0%, #83ebf6 100%); }
+
+.contact-banner__content .contact_item.phone .title { color: #49cbd9; }
+
+.contact-banner__content .contact_item.email { background: #e37343; background: -webkit-gradient(linear, left bottom, left top, from(#e37343), to(#f3aa5b)); background: linear-gradient(0deg, #e37343 0%, #f3aa5b 100%); }
+
+.contact-banner__content .contact_item.email .title { color: #e88049; }
 /*# sourceMappingURL=style.css.map */
