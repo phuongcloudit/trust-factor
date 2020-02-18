@@ -7,7 +7,10 @@
     <title>Trust Factor</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/flexboxgrid.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
 </head>
 
 <body>
@@ -26,7 +29,7 @@
         <div class="main-cover">
             <div class="container">
                 <div class="row">
-                    <h2 class="title">月末まで待てない！そんな時は⁉<br>
+                    <h2 class="title"><span class="q">月末まで待てない！そんな時は⁉</span><br>
                         給料ファクタリングで即日解決！</h2>
                 </div>
                 <div class="row">
@@ -165,11 +168,9 @@
         </section>
         <section id="top-step">
             <div class="container">
-                <div class="row">
                     <h2 class="title">
                         お申込みからご入金までの手続き
                     </h2>
-                </div>
                 <div class="top-step__content">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6 step_item">
@@ -236,15 +237,13 @@
                 </div>
             </div>
         </section>
-        <section id="q&a">
+        <section id="qa">
             <div class="container">
+                <h2 class="title">
+                    Q&A
+                </h2>
                 <div class="row">
-                    <h2 class="title">
-                        Q&A
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="content">
+                    <div class="content faq owl-carousel owl-theme">
                         <div class="col-xs-12 item">
                             <div class="question">
                                 他の業者で審査に落ちましたがファクタリングを利用することは可能ですか？
@@ -259,45 +258,140 @@
         </section>
         <section id="company-profile">
             <div class="container">
-                <div class="row">
-                    <h2 class="title">
-                        会社概要
-                    </h2>
-                </div>
-                <div class="row">
-                    <div class="content">
-                        <dl>
-                            <dt>運営会社</dt>
-                            <dd>株式会社ＤＩＣＥ</dd>
-                        </dl>
-                        <dl>
-                            <dt>電話番号</dt>
-                            <dd>03-6453-4491</dd>
-                        </dl>
-                        <dl>
-                            <dt></dt>
-                            <dd>〒154-0024 東京都世田谷区三軒茶屋1-35-17</dd>
-                        </dl>
-                        <dl>
-                            <dt>営業時間</dt>
-                            <dd>営業時間</dd>
-                        </dl>
+                <h2 class="title">
+                    会社概要
+                </h2>
+                <div class="row content">
+                    <dl>
+                        <dt>運営会社</dt>
+                        <dd>株式会社ＤＩＣＥ</dd>
+                    </dl>
+                    <dl>
+                        <dt>電話番号</dt>
+                        <dd>03-6453-4491</dd>
+                    </dl>
+                    <dl>
+                        <dt></dt>
+                        <dd>〒154-0024 東京都世田谷区三軒茶屋1-35-17</dd>
+                    </dl>
+                    <dl>
+                        <dt>営業時間</dt>
+                        <dd>営業時間</dd>
+                    </dl>
 
-                        <dl>
-                            <dt>電話番号</dt>
-                            <dd>03-6453-4491</dd>
-                        </dl>
-                    </div>
+                    <dl>
+                        <dt>電話番号</dt>
+                        <dd>03-6453-4491</dd>
+                    </dl>
                 </div>
             </div>
         </section>
-        <section id="contact-demo">
+        <section id="apply-form">
             <h2 class="title">
                 お申込みフォーム
             </h2>
             <div class="container">
-                <div class="row">
-
+                <div class="row content">
+                    <div class="col-xs-12">
+                        <form method="post" action="./sendmail.php" id="applyForm2">
+                            <dl>
+                                <dt>お名前<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="name2" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>フリガナ<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="nameagain2" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>性別<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd class="radio">
+                                    <input type="radio" name="age2" value="男"> 男
+                                     <input type="radio" name="age2" value="女"> 女						
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>生年月日<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="address2" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>家族構成<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="namework2" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>住所<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="commu2" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>住居の種類<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="kindwork2" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>居住人数<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="year2" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>携帯番号<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="income2" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>E-mailアドレス<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="email" placeholder=""></dd> 
+                            </dl>
+                            <dl>
+                                <dt>E-mailアドレス(確認)<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="email2" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>勤務先名<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="congviec" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>勤務先電話番号<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="sdt" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>勤務先本社所在地<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="diachi" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>従業員数</dt>
+                                <dd><input type="text" name="soluongnv" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>雇用形態<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="hinhthuc" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>勤続年数<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="sonam" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>勤務時間帯</dt>
+                                <dd><input type="text" name="muigio" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>手取りの平均月収<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="luongtrungbinh" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>給料日（締日<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="ngaytratien" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>給料の支給方法<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="phuongthuctt" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>給料日が土日祝の場合<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="luongtrat7" placeholder=""></dd>
+                            </dl>
+                            <dl>
+                                <dt>他社お借入れ状況<span style="float: right;color: red!important">※必須</span></dt>
+                                <dd><input type="text" required="required" name="tinhtrangvay" placeholder=""></dd>
+                            </dl>
+                            <input type="submit" value="申し込む" name="submit2" class="disabled nokow">
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -305,6 +399,30 @@
     <footer>
 
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script>
+            $(".faq").owlCarousel({
+            loop:true,
+            responsiveClass:true,
+            nav:true,
+            navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+            autoplay:true,
+            autoplayTimeout:2500,
+            dots: true,
+            smartSpeed: 1000,
+            responsive:{
+                0:{
+                    items:1,
+                    margin:10
+                },
+                768:{
+                    items:1,
+                    margin:20
+                }
+            }
+        })
+        </script>
 </body>
 
 </html>
